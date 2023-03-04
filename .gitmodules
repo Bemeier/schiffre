@@ -1,0 +1,15 @@
+[submodule "libraries/acheron_Symbols"]
+	path = libraries/acheron_Symbols
+	url = https://github.com/AcheronProject/acheron_Symbols.git
+[submodule "libraries/acheron_Hardware.pretty"]
+	path = libraries/acheron_Hardware.pretty
+	url = https://github.com/AcheronProject/acheron_Hardware.pretty
+[submodule "libraries/acheron_Components.pretty"]
+	path = libraries/acheron_Components.pretty
+	url = https://github.com/AcheronProject/acheron_Components.pretty.git
+[submodule "libraries/KiCad-RP-Pico"]
+	path = libraries/KiCad-RP-Pico
+	url = https://github.com/ncarandini/KiCad-RP-Pico.git
+[submodule "libraries/MX_Alps_Hybrid"]
+	path = libraries/MX_Alps_Hybrid
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git

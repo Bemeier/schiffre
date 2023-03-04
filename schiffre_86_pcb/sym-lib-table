@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "cypher-rescue")(type "Legacy")(uri "${KIPRJMOD}/schiffre_86_pcb-rescue.lib")(options "")(descr ""))
+  (lib (name "FH34SRJ-30S-0.5SH_50_")(type "KiCad")(uri "D:/Dev/pcb/schiffre/libraries/FH34SRJ-30S-0.5.pretty/FH34SRJ-30S-0.5SH_50_.kicad_sym")(options "")(descr ""))
+)
