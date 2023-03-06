@@ -629,36 +629,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "EXT_VCC"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(D1-Pad1)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VBAT"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "nRF_VDD"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "SHIELD"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -719,10 +690,6 @@
     [
       "bfc0aadc-38cf-466e-a642-68fdc3138c78",
       ""
-    ],
-    [
-      "7429f4cd-9249-463b-a0d4-071dff548c46",
-      "RPi Pico Breakout"
     ]
   ],
   "text_variables": {}
