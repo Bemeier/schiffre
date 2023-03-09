@@ -43,7 +43,7 @@ Some additional components need to be ordered seperately.
 
 
 ## FIRMWARE
-ZMK compatible firmware under development.
+ZMK compatible firmware under development. Still learning how it works, but the [schiffre dev branch is on our fork](https://github.com/Bemeier/zmk/tree/schiffre).
 
 ## PROJECT NAME
 *Schiffre* is a combination of the german word *Chiffre* (translation of Cypher, the board this project was based on originally), and the word *Schiff*, which means ship or big boat, reflecting the shape of the keyboard.
