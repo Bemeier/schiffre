@@ -29,23 +29,25 @@ Some additional components need to be ordered seperately.
    - 4x20x60mm 600mAh [AliExpress](https://aliexpress.com/item/1005005086965061.html)
    - 4x25x100mm 1200mAh [AliExpress](https://aliexpress.com/item/1005005067026996.html)
 
-
 **For the Case (`schiffre_86_case`):**
  - M3x5.7x4.6 and M2x4x3.6 Heat-set inserts (if 3D printing the case or machining from plastics) [AliExpress](https://www.aliexpress.com/item/4001258499799.html).
  - DIN912 socket head screws: 8x M3x10mm, 4x M2x6mm [AliExpress](https://www.aliexpress.com/item/32810872544.html)
  - Plate mounting gaskets and case feet need to be 3D printed from TPU.
 
-## First Prototype
+## FIRST BUILD
 TODO
 
 ## FIRMWARE
-ZMK support works. See the [schiffre branch on our fork](https://github.com/Bemeier/zmk/tree/schiffre). 
+ZMK support works. See the [schiffre branch on our zmk fork](https://github.com/Bemeier/zmk/tree/schiffre). 
 There is a [zmk-config template for the schiffre86](https://github.com/Bemeier/schiffre86-zmk-config) that you can clone to build your own keymap.
 It comes with support for nickcoutsos' [keymap-editor](https://nickcoutsos.github.io/keymap-editor/).
 
 ![screenshot of keymap-editor showing the schiffre86](img/keymap-editor.png)
 
 For a precompiled version see `schiffre86-schiffre_nrf-zmk.uf2` in the `firmware` folder.
+
+For instructions on how to setup flashing the modules, refer to Joric's excellent [nrfmicro wiki](https://github.com/joric/nrfmicro/wiki/).
+The main thing to do is to [flash the bootloader](https://github.com/joric/nrfmicro/wiki/Bootloader) onto the E73 modules.
 
 ## PROJECT NAME
 *Schiffre* is a combination of the german word *Chiffre* (translation of Cypher, the board this project was based on originally), and the word *Schiff*, which means ship or big boat, reflecting the shape of the keyboard.
