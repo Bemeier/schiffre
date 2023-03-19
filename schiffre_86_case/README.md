@@ -9,5 +9,7 @@ Prototype was printed using a .6mm nozzle, .15mm layer height, 3 perimeters, 4-5
 
 I've printed the gaskets and feet using Recreus Filaflex 82A TPU.
 
+**NOTE: .STL's are NOT exported with the correct orientation**
+
 ## CNC
 TODO
