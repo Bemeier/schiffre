@@ -1,8 +1,10 @@
 # SCHIFFRE
 
 The Schiffre project is a mechanical keyboard featuring a host board and shield design, using a Flexible Flat Cable (FFC) as interconnect.
-
 All PCBs designed with Kicad 7.0. Case designed in Fusion.
+
+![schiffre86 banner](img/banner.png)
+![schiffre86 assembly](img/assembly.png)
 
 ## COMPONENTS
 In this repository you will find everything to build a Schiffre 86 board.
@@ -10,7 +12,7 @@ In this repository you will find everything to build a Schiffre 86 board.
 - The host board: `schiffre_nrf`
 - The shield PCB: `schiffre_86_pcb`
 - The switch plate: `schiffre_86_plate`, with files for production from FR4.
-- The case: `schiffre_86_case`, designed both for with 3D printing and CNC machining in mind.
+- The case: `schiffre_86_case`, designed with both 3D printing and CNC machining in mind.
 
 In addition there is a breakout board for the 30 pin FFC connector, with a RPi Pico header in `schiffre_pico`.
 
@@ -36,13 +38,14 @@ Some additional components need to be ordered seperately.
 ## First Prototype
 TODO
 
-
 ## FIRMWARE
-ZMK support works. See the [schiffre branch is on our fork](https://github.com/Bemeier/zmk/tree/schiffre).
+ZMK support works. See the [schiffre branch on our fork](https://github.com/Bemeier/zmk/tree/schiffre). 
 There is a [zmk-config template for the schiffre86](https://github.com/Bemeier/schiffre86-zmk-config) that you can clone to build your own keymap.
 It comes with support for nickcoutsos' [keymap-editor](https://nickcoutsos.github.io/keymap-editor/).
 
 ![screenshot of keymap-editor showing the schiffre86](img/keymap-editor.png)
+
+For a precompiled version see `schiffre86-schiffre_nrf-zmk.uf2` in the `firmware` folder.
 
 ## PROJECT NAME
 *Schiffre* is a combination of the german word *Chiffre* (translation of Cypher, the board this project was based on originally), and the word *Schiff*, which means ship or big boat, reflecting the shape of the keyboard.
