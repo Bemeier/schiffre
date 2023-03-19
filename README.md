@@ -33,17 +33,24 @@ Some additional components need to be ordered seperately.
  - DIN912 socket head screws: 8x M3x10mm, 4x M2x6mm [AliExpress](https://www.aliexpress.com/item/32810872544.html)
  - Plate mounting gaskets and case feet need to be 3D printed from TPU.
 
+## First Prototype
+TODO
+
+
+## FIRMWARE
+ZMK support works. See the [schiffre branch is on our fork](https://github.com/Bemeier/zmk/tree/schiffre).
+There is a [zmk-config template for the schiffre86](https://github.com/Bemeier/schiffre86-zmk-config) that you can clone to build your own keymap.
+It comes with support for nickcoutsos' [keymap-editor](https://nickcoutsos.github.io/keymap-editor/).
+
+![screenshot of keymap-editor showing the schiffre86](img/keymap-editor.png)
+
+## PROJECT NAME
+*Schiffre* is a combination of the german word *Chiffre* (translation of Cypher, the board this project was based on originally), and the word *Schiff*, which means ship or big boat, reflecting the shape of the keyboard.
 
 ## TODO
- - Add some decoupling caps
+ - Couldn't get the XTAL to work yet
+ - Add some decoupling caps..
  - Add a Battery switch
  - Test the external power for backlight / LEDs.
  - Revisit the FCC pinout, especially with other aux devices that may be on the shield board (i.e. encoders or OLEDs)
  - Make FCC "reversible" i.e. mirror power pins.
-
-
-## FIRMWARE
-ZMK compatible firmware under development. Still learning how it works, but the [schiffre dev branch is on our fork](https://github.com/Bemeier/zmk/tree/schiffre).
-
-## PROJECT NAME
-*Schiffre* is a combination of the german word *Chiffre* (translation of Cypher, the board this project was based on originally), and the word *Schiff*, which means ship or big boat, reflecting the shape of the keyboard.
