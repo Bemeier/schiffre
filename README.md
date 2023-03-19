@@ -49,6 +49,12 @@ For a precompiled version see `schiffre86-schiffre_nrf-zmk.uf2` in the `firmware
 For instructions on how to setup flashing the modules, refer to Joric's excellent [nrfmicro wiki](https://github.com/joric/nrfmicro/wiki/).
 The main thing to do is to [flash the bootloader](https://github.com/joric/nrfmicro/wiki/Bootloader) onto the E73 modules.
 
+## LAYOUTS
+The schiffre86 supports both ANSI and ISO (Enter, split left shift) layouts, split backspace, and split spacebars.
+See the [keyboard layout editor](http://www.keyboard-layout-editor.com/#/gists/19b67d0e8a5331e922c6eb11a3dd6522) for details.
+
+![schiffre86 supported layouts](img/layouts.png)
+
 ## PROJECT NAME
 *Schiffre* is a combination of the german word *Chiffre* (translation of Cypher, the board this project was based on originally), and the word *Schiff*, which means ship or big boat, reflecting the shape of the keyboard.
 
